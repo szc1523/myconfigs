@@ -126,3 +126,7 @@ alias -s bz2='tar -xjvf'
 # export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+# change homebrew bottles source
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
